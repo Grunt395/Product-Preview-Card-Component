@@ -1,3 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    /* align-items: center; */
+}
+
+.product-image {
+    width: 250px;
+    height: 400px;
+}
+
+.content-box {
+    background-color: hsl(0, 0%, 100%);
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
