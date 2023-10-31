@@ -98,6 +98,7 @@ body {
     cursor: pointer;
 }
 
+.cart-button:hover,
 .cart-button:active {
     background-color: hsl(153, 71%, 12%);
 }
