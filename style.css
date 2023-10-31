@@ -26,16 +26,18 @@ body {
     border-radius: 10px 0 0 10px;
 }
 
+.mobile-image {
+    display: none;
+}
+
 .content-box {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     width: 275px;
     height: 400px;
-    /* gap: 25px; */
     background-color: hsl(0, 0%, 100%);
     border-radius: 0 10px 10px 0;
-    /* padding: 20px; */
 }
 
 .perfume {
@@ -93,6 +95,35 @@ body {
     border-radius: 5px;
     margin-left: 20px;
     margin-right: 20px;
+    cursor: pointer;
+}
+
+.cart-button:active {
+    background-color: hsl(153, 71%, 12%);
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        display: block;
+    }
+
+    .product-image {
+        display: none;
+    }
+
+    .mobile-image {
+        display: block;
+        width: 300px;
+        height: 200px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .content-box {
+        border-radius: 0 0 10px 10px;
+        width: 300px;
+        height: 375px;
+    }
+
 }
 
 .attribution {
