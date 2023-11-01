@@ -25,12 +25,13 @@
 
     <body>
 
-        <div>
-            <div class="container">
-                <div class="img-box">
-                    <img class="product-image" src="./images/image-product-desktop.jpg" alt="product image">
-                    <img class="mobile-image" src="./images/image-product-mobile.jpg" alt="mobile image">
-                </div>
+        <div class="boxbox">
+            <main class="container">
+                <picture class="img-box">
+                    <source media="(min-width: 600px)" srcset="./images/image-product-desktop.jpg">
+                    <img class="product-image" src="./images/image-product-mobile.jpg" alt="perfume mobile image">
+                </picture>
+
                 <article class="content-box">
                     <h2 class="perfume">Perfume</h2>
                     <h1 class="product-title">Gabrielle Essence Eau De Parfum</h1>
@@ -46,7 +47,7 @@
                     <button class="cart-button"><img src="./images/icon-cart.svg" alt="shopping-cart">
                         Add to Cart</button>
                 </article>
-            </div>
+            </main>
 
             <div class="attribution">
                 <p>Challenge by
